@@ -30,6 +30,7 @@ Now, declare all the methods using whatever you want. The most important is:
     public String getElementTagName();
 
 The value is what comes out in the HTML. So returning `hello` results in `<hello></hello>`
+
 For `getSource(int spaces)`, I use `SourceHelper.getSource(spaces, this)` as it helps reduce and dry code.
 
 2. Define your own attributes
