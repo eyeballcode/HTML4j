@@ -25,7 +25,8 @@ Here's how to have your own element:
 -------------
 
     public class MyHTMLElement extends HTMLElement
-Now, declare all the methods using whatever you want. THe most important is:
+Now, declare all the methods using whatever you want. The most important is:
+
     public String getElementTagName();
 
 The value is what comes out in the HTML. So returning `hello` results in `<hello></hello>`
